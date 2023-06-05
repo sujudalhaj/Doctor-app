@@ -294,6 +294,9 @@ table.table td h2.table-avatar {
     vertical-align: middle;
 	white-space: nowrap;
 }
+.table-avatar p {
+	color: #009efb;
+}
 table.table td h2 a {
 	color: #272b41;
 }
@@ -355,7 +358,14 @@ table.table td h2 span {
 }
 .card-table .table tr td:first-child,
 .card-table .table tr th:first-child {
-    padding-left: 1.5rem;
+	padding-left: 0.5rem;
+    width: 64px;
+	align-items: center;
+	font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center ;
+
 }
 .card-table .table tr td:last-child,
 .card-table .table tr th:last-child {
@@ -7577,6 +7587,16 @@ color: #6EC7C3;
     border-radius: 6px;
 	padding: 50px;
 }
+
+.create-blog {
+	width: 1083px;
+    height: 928px;
+
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+	padding: 50px;
+}
 .add-blogs h2 {
 	font-family: 'Poppins';
 	font-style: normal;
@@ -7601,4 +7621,53 @@ input.new-form {
     background: #FFFFFF;
     border: 1px solid #DCDCDC;
     border-radius: 6px;
+}
+
+
+.container-fill {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px;
+    /* background: #F0F0F0; */
+    background: #FFFFFF;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+    width: 1440px;
+    height: 1683px;
+}
+
+
+.creat-blogs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+	margin-bottom: 15px;
+}
+
+.main-div{
+	background-color: white;
+}
+
+
+.taple-all {
+    display: flex;
+    /* width: 250px; */
+    align-items: flex-start;
+}
+
+.taple-all p {
+	margin: 6px;
+    color: #6C757D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.handle-input {
+    margin-bottom: 21px;
+}
+.create-blog h2 {
+    margin-bottom: 20px;
 }
