@@ -1665,7 +1665,7 @@ html.menu-opened body {
 -----------------------*/
 
 .sidebar {
-    background-color: #1b5a90;
+    background-color:#ffffff;
    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
     bottom: 0;
     left: 0;
@@ -1707,15 +1707,15 @@ html.menu-opened body {
     color: #5ae8ff;
 }
 .sidebar-menu > ul > li > a:hover {
-	background-color: #19c1dc;
+	background-color: #A6DAD8;
     color: #fff;
 }
 .sidebar-menu > ul > li.active > a:hover {
-    background-color: #19c1dc;
+    background-color: #A6DAD8;
     color: #fff;
 }
 .sidebar-menu li.active a {
-    background-color: #00d0f1;
+	background-color: #A6DAD8;
     color: #fff;
 }
 .menu-title {
@@ -1757,6 +1757,7 @@ html.menu-opened body {
 	display: inline-block;
 	margin-left: 10px;
 	white-space: nowrap;
+	color:#6C757D ;
 }
 .sidebar .sidebar-menu > ul > li > a span.chat-user {
     margin-left: 0;
@@ -1838,6 +1839,7 @@ html.menu-opened body {
 	vertical-align: middle;
 	width: 20px;
 	transition: all 0.2s ease-in-out 0s;
+	color: #6C757D;
 }
 .sidebar-menu ul li.menu-title a i {
 	font-size: 16px !important;
