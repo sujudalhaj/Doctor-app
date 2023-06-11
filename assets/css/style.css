@@ -2530,6 +2530,7 @@ html.menu-opened body {
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 80px;
+	margin-bottom: 19px;
   }
   
   .search-container {
@@ -7682,3 +7683,58 @@ input.new-form {
 }
 
 
+
+
+/*  contact Us section  */
+.Download {
+	padding-top:var(--section-padding);
+	padding-bottom: var(--section-padding);
+	background-color: var(--section-background);
+}
+
+.Download .container-Download {
+	display: flex;
+    flex-direction: row-reverse;
+	background-color: #F1FAFA;
+	border-radius: 25px;
+	/* width: 1500px; */
+	background-color: #76CCC8;;
+    height: 480px;
+
+}
+
+.discription-sec {
+    margin: auto;
+    padding: 50px;
+	color: #FFFFFF;
+}
+.discription-sec h1 {
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    width: 553.2px;
+	color: #FFFFFF;
+}
+.discription-sec p {
+	margin-bottom: 35px;
+    margin-top: 33px;
+	font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+}
+
+/* .col-md-7 {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.colmn-organize {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
